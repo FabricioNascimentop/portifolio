@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "@react-three/drei": "^9.121.5",
+    "@react-three/fiber": "^8.17.14",
+    "motion": "^12.4.2",
+    "next": "^14.2.16",
+    "react": "18.2",
+    "react-dom": "18.2",
     "react-icons": "^5.4.0"
   },
   "devDependencies": {

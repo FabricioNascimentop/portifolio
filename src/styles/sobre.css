@@ -1,0 +1,169 @@
+div.texto > h2{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+div.texto > p{
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 2px;
+    color: rgb(50, 50, 50);
+}
+div.habilidades > h2{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.pc{
+    margin: auto;
+    width: 600px;
+    height: 470px;
+    background-image: url('/pc.png');
+}
+.pc > p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 55px;
+    width: 357px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.telaOff,.telaOn{
+    position: absolute;
+    margin-left: 81px;
+    width: 307px;
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: transparent solid 1px;
+}
+.telaOn{
+    transition: ease-in-out 0.25s;
+    background-color: white;
+}
+
+.telaOff{
+    transition: 8s cubic-bezier(0,0,0,1);
+}
+.telaOff::before{
+    content: "Espero que tenha gostado ;)";
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    animation: desligando 2 ease-in;
+}
+@keyframes desligando {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.divLoading, .divLoading svg{
+    width: 100%;
+    height: 100%;
+}
+
+.loading_text{
+    font-size: 25px;
+}
+.telaOff:hover{
+    border: red solid 2px;
+}
+.telaContent{
+    position: relative;
+    top: -47px;
+    left: -114px;
+    z-index: 1;
+}
+.close{
+    height: 600px;
+}
+.close svg{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+
+}
+.close:hover svg{
+    cursor: pointer;
+}
+
+.cont-botao-monitor{
+    position: relative;
+    top: 173px;
+    left: 359px;
+    width: 30px;
+    height: 30px
+}
+
+.cont-botao-monitor  div{
+    scale: 0.455;
+}
+
+.cont-botao-monitor button:hover  svg{
+    cursor: pointer;
+    color: yellowgreen;
+}
+.gabinete{
+    position: relative;
+    top: -66px;
+    left: 467px;
+    width: 125px;
+    height: 346px;
+    border: solid transparent 2px;
+}
+
+.gabinete > p{
+    position: relative;
+    top: 220px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cont-botao-gabinete  div{
+    position: relative;
+    width: 65px;
+    scale: 0.455;
+    top: 240px;
+    left: 30px;;
+}
+.cont-botao-gabinete button:hover  svg{
+    cursor: pointer;
+    color: yellowgreen;
+}
+
+.showBackend{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-image: url('/gabinete.png');
+    margin: auto;
+    z-index: 2;
+}
+.pc-2{
+    margin: auto;
+    width: 600px;
+    height: 470px;
+    background-image: url('/pc2.png');
+}
+.pcdentro{
+    position: relative;
+    height: 344px;
+    background-color: white;
+    top: -397px;
+    left: 600px;
+    border: solid black 8px;
+    z-index: 1;
+    width: 0px;
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import { FaLinkedin, FaGithub, FaWhatsapp, FaRegEnvelope } from "react-icons/fa";
-import styles from "../styles/aside.module.css";
+import styles from "../styles/components.module.css";
 
 export default function Aside() {
   return (
