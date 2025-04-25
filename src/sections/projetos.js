@@ -1,4 +1,4 @@
-import '../styles/experiencia.css'
+import '../styles/autocar.css'
 import textos from '../textos.json'
 export default function Projetos({lang, children}){
     const [child1, child2] = children;

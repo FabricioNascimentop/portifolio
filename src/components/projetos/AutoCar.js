@@ -1,7 +1,11 @@
 
-import '../../styles/experiencia.css'
+import '../../styles/autocar.css'
+import mockupcel from '../../../public/mockupcell.png'
 export default function AutoCar({lang}){
     return(
-        <iframe src="https://www.cursoemvideo.com"></iframe>
+        <div className='container-img'>
+            <iframe src='https://autocar-zojn.onrender.com'></iframe>
+        </div>
+        
     )
 }

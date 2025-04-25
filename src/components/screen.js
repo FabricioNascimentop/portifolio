@@ -40,7 +40,7 @@ function SpaceOS({lang}) {
     const numCubes = 12; // Número de cubos
     const colors = ["cyan", "pink", "brown", "gray", "red", "blue", "yellow", "purple", "green", "orange", "white", "magenta"];
     const texts = ["HTML","CSS","Javascript","React","Next.js","Vite","Design responsivo","Mobile-First","Media Query","Tailwind","Sass","Styled Components"];
-    if(lang == 'en'){
+    if(lang === 'en'){
       texts[6] = "Responsive Design"
     }
     return (
