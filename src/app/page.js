@@ -5,12 +5,9 @@ import { BostaoIdioma } from "@/components/botoes";
 
 import Inicio from "@/sections/inicio";
 import Sobre from "@/sections/sobre";
-import Projetos from "@/sections/projetos";
+import Projetos, {AutoCar, ProjectRenderer} from "@/sections/projetos";
 import Contatos from "@/sections/contatos";
-import AutoCar from "@/components/projetos/AutoCar";
-import TodoBook from "@/components/projetos/todoBook";
-
-export default function App(){
+  export default function App(){
   const [lang,setLang] = useState('pt')
   return(
     <>
@@ -22,7 +19,6 @@ export default function App(){
     <Projetos lang={lang}>
 
       <AutoCar/>
-      <TodoBook/>
 
     </Projetos>
 

@@ -1,6 +1,6 @@
 {
     "pt": { 
-        "nav": ["Início", "Sobre Mim", "Experiências", "Contatos"],
+        "nav": ["Início", "Sobre Mim", "Projetos realizados", "Contatos"],
         "h2": ["Sobre mim", "Minhas habilidades"],
         "sobremim": "Olá, Me chamo Fabrício, tenho 20 anos, ensino médio completo pelo IFPA, atualmente estou no 1° semestre de Economia na UFPA, tenho muito gosto por resolver problemas e vejo a tecnologia como um meio para tal, busco uma vaga como programador fullstack."
     },

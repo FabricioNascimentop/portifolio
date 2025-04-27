@@ -7,7 +7,6 @@ import '../styles/inicio.css'
 export default function Inicio({lang}){
     return(
         <>
-        <Aside/>
         <header>
             <nav>
                 <h3 className="nav-h3">{textos[lang].nav[0]}</h3>
