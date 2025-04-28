@@ -33,8 +33,26 @@ section.projetos{
 }
 .container-project-ego{
     width: 45%;
-    height: 600px;
+    height: 550px;
     border: black solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 25px 10px;
+
+}
+.container-project-ego > div {
+    width: 100%;
+}
+.container-project-ego  h3{
+    font-size: 1.15em;
+    font-weight: 400;
+    margin: 0px 45px;
+}
+.container-project-ego  h2{
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0px;
 }
 iframe {
     width: 100%;

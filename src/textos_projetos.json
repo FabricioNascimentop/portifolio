@@ -1,0 +1,42 @@
+{
+    "autocar":{
+        "pt":{
+            "home":{
+                "i1":"página inicial do projeto",
+                "i2":"carro da semana definido em tabela própria no banco de dados definida via frontend e validada partir da datas de entrada, saída e a data atual",
+                "i3": "clique na seta ao lado para visualização da próxima página"
+            },
+            "contatos":{
+                "i1":"página para entrar em contato",
+                "i2":"backend usa protocolo SMTP para enviar emails automatizados com informações do usuário",
+                "i3": "clique na seta ao lado para visualização da próxima página"
+
+            },
+            "carros":{
+                "i1":"visualização dos carros disponíveis no banco de dados",
+                "i2":"backend pega os dados de acordo com parâmetros estabelecido por usuário (clicar na seta branca a esquerda no preview ao lado) e retorna os elementos correspondentes",
+                "i3": "clique na seta ao lado para visualização da próxima página"
+
+            },
+            "detalhes carro exemplo":{
+                "i1":"detalhes de Nissan Altima",
+                "i2":"visualização detalhada de carro, neste exemplo, o Nissan Altima. Conta com apresentação definida a partir de seu ID para organização de dados, usuários autenticados (administradores) podem alterar seus dados",
+                "i3": "clique na seta ao lado para visualização da próxima página"
+
+            },
+            "editar carro exemplo":{
+                "i1":"editar dados de Nissan Altima",
+                "i2":"página protegida (disponível apenas a administradores) para edição de dados, backend faz as alterações necessária e as salva, infelizmente, por limitação do iframe seu uso só pode ser testado no site principal",
+                "i3": "clique na seta ao lado para visualização da próxima página"
+
+            },
+            "adicionar carro":{
+                "i1":"página inicial do projeto",
+                "i2":"formulário para adição de novos carros, com validações básicas tanto no frontend quanto no backend para segurança, ao fazer o insert na tabela o backend trata de criar uma página respectiva com id e nome do carro para organização, infelizmente, por limitações do iframe só funciona no site principal",
+                "i3": "clique na seta ao lado para visualização da próxima página"
+
+            },
+            "constante":"para melhor visualização do projeto completo clique <a href='https://autocar-zojn.onrender.com/login recrutador' target='_blank'>aqui</a>"
+        }
+    }
+}
