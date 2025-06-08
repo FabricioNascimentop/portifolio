@@ -1,42 +1,4 @@
-import { motion } from 'framer-motion';
-import { Canvas, useThree } from "@react-three/fiber";
-import { useEffect, useRef, useState } from "react";
-import { useFrame } from "@react-three/fiber";
-import { OrbitControls, Stars, Text } from "@react-three/drei";
-import { SvgFechar,LoadingSvg } from './svgs';
-
-
-export default function Screen({state, lang}) {
-  const [showOS, setShowOS] = useState(false);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowOS(true);
-    }, 1750);
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  return <>{showOS ? <OsContent onToggle={() => {state(false)}} lang={lang}/> : <LoadingSvg />}</>;
-}
-
-
-function OsContent({onToggle, lang}){
-    return(
-        <motion.div
-        initial={{opacity:0, top:'-250px'}}
-        animate={{transition: {duration: 1}, opacity:1, width:'900px',height:'800px',top:'-125px',left:'20%'}}
-        className='telaContent'
-        onAnimationStart={() => {window.scrollTo({top:465, behavior:'smooth'})}}>
-
-                  <div className='close'>
-                      <SpaceOS lang={lang}/>
-                      <div onClick={() => {onToggle(false)}}><SvgFechar/></div>
-                  </div>
-                
-        </motion.div>
-    )
-}
-function SpaceOS({lang}) {
+export default function FrontendOS({lang}) {
     const numCubes = 12; // Número de cubos
     const colors = ["cyan", "pink", "brown", "gray", "red", "blue", "yellow", "purple", "green", "orange", "white", "magenta"];
     const texts = ["HTML","CSS","Javascript","React","Next.js","Vite","Design responsivo","Mobile-First","Media Query","Tailwind","Sass","Styled Components"];
@@ -144,4 +106,3 @@ function SpaceOS({lang}) {
       </group>
     );
   }
-  

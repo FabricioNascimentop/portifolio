@@ -37,12 +37,13 @@ div.habilidades > h2{
     position: absolute;
     margin-left: 81px;
     width: 307px;
-    height: 188px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: transparent solid 1px;
+    height: 188px;
+
 }
 .telaOn{
     transition: ease-in-out 0.25s;
@@ -84,19 +85,94 @@ div.habilidades > h2{
     left: -114px;
     z-index: 1;
 }
-.close{
+.ChooseOsContainer{
     height: 600px;
+    width: 900px;
+    border-radius: 5px;
+    background-color: black;
+
 }
-.close svg{
+.ChooseOsContainer svg.fechar_svg{
     color: white;
     position: absolute;
     top: 0px;
     right: 0px;
     padding: 5px;
+}
+.ChooseOsContainer:hover svg{
+    cursor: pointer;
+}
+.ChooseOsContainer h2{
+    font-size: 2.5rem;              
+    font-weight: 800;              
+    color: #fff;                 
+    margin-bottom: 3rem;            
+    line-height: 1.2;
+    position: absolute;
+}
+.option-card-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: calc(50% - 100px);
+    justify-content: center;
+    gap: 45px
 
 }
-.close:hover svg{
-    cursor: pointer;
+
+
+/* ------------- ESTILO DOS CARDS (BACKEND / FRONTEND) ------------- */
+.option-card {
+  background: linear-gradient(135deg, #F3F4F6 0%, #E5E7EB 100%); 
+  border-radius: 1.25rem;        
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 35%;               
+  cursor: pointer;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.option-card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.5rem);
+}
+
+.option-card.backend:hover {
+  border-color: #374151;          
+}
+
+.option-card.frontend:hover {
+  border-color: #000000;          
+}
+
+.option-icon {
+  width: 6rem;                    
+  height: 6rem;
+  margin-bottom: 1.5rem;          
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.icon-color-primary {
+  stroke: #1F2937;                
+}
+
+.icon-color-secondary {
+  stroke: #000000;                
+}
+
+.option-label {
+  font-size: 1.5rem;              
+  font-weight: 700;               
+  color: #374151;                 
 }
 
 .cont-botao-monitor{

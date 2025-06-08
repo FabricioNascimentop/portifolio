@@ -2,11 +2,13 @@
     "pt": { 
         "nav": ["Início", "Sobre Mim", "Projetos realizados", "Contatos"],
         "h2": ["Sobre mim", "Minhas habilidades"],
-        "sobremim": "Olá, Me chamo Fabrício, tenho 20 anos, ensino médio completo pelo IFPA, atualmente estou no 1° semestre de Economia na UFPA, tenho muito gosto por resolver problemas e vejo a tecnologia como um meio para tal, busco uma vaga como programador fullstack."
+        "sobremim": "Olá, Me chamo Fabrício, tenho 20 anos, ensino médio completo pelo IFPA, atualmente estou no 1° semestre de Economia na UFPA, tenho muito gosto por resolver problemas e vejo a tecnologia como um meio para tal, busco uma vaga como programador fullstack.",
+        "OS":"Escolha seu sistema operacional"
     },
     "en": { 
         "nav": ["Home", "About Me", "Experiences", "Contacts"],
         "h2": ["About Me", "My Skills"],
-        "sobremim": "Hello, my name is Fabrício. I am 20 years old, I have completed high school at IFPA, and I am currently in the first semester of Economics at Federal University State of Para (UFPA). I have a great passion for solving problems and see technology as a means to do so. I am looking for a position as a full-stack developer."
+        "sobremim": "Hello, my name is Fabrício. I am 20 years old, I have completed high school at IFPA, and I am currently in the first semester of Economics at Federal University State of Para (UFPA). I have a great passion for solving problems and see technology as a means to do so. I am looking for a position as a full-stack developer.",
+        "OS":"Choose your operating system"
     }
 }

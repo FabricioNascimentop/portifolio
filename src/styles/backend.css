@@ -1,0 +1,159 @@
+body.backendBody{
+  overflow: hidden;
+  margin: 0px;
+}
+.explorer-window {
+    border: 1px solid #a0a0a0;
+    border-radius: 4px;
+    background-color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: calc(100% - 2px);
+}
+
+.explorer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #dcdcdc, #f0f0f0);
+  padding: 4px 8px;
+  border-bottom: 1px solid #b0b0b0;
+}
+
+.explorer-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  width: 50px;
+  padding: 5px;
+}
+
+.close-btn:hover {
+  color: white;
+  background-color: red;
+  border-radius: 2px;
+}
+
+.explorer-content {
+  height: 100%;
+}
+
+.backendos-container {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    font-family: 'Courier New', monospace;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+    top: 0px;
+    margin: auto;
+}
+.active{
+  display: flex;
+}
+.sidebar {
+  width: 200px;
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.nav-section button {
+  background: none;
+    border: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-left: 25px;
+}
+.nav-section button.foldinho{
+    margin-left: 0px;
+}
+.nav-section button:hover {
+  transform: scale(1.175);
+  transition: 200ms;
+}
+
+.explorer {
+  width: 50%;
+  padding: 24px;
+  border-right: 1px solid #ddd;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.folder-grid {
+  display: block;
+}
+
+.folder {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  height: 75px;
+}
+
+.folder:hover {
+  transform: scale(1.02);
+  background-color: rgba(119, 119, 119, 0.125);
+  border-radius: 3px;
+}
+
+.folder span {
+  margin-top: -4px;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.folder_text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.folder_text > span.stack{
+    font-size: 11px;
+    margin: 0px;
+}
+.viewer {
+  flex-grow: 1;
+  padding: 24px;
+  width: 35%;
+}
+
+.placeholder {
+  color: #777;
+  font-size: 18px;
+}
+
+.code {
+  background-color: #111;
+  color: #a1f0a1;
+  padding: 16px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  height: 100%;
+  overflow-y: auto;
+}

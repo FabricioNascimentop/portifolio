@@ -18,7 +18,6 @@ import Contatos from "@/sections/contatos";
 
     <Projetos lang={lang}>
 
-      <AutoCar/>
 
     </Projetos>
 
